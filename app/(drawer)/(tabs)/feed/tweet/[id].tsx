@@ -1,5 +1,5 @@
-import SingleTweet from "../../components/Tweets/singleTweet";
-import tweets from "../../assets/data/tweets";
+import SingleTweet from "../../../../../components/Tweets/singleTweet";
+import tweets from "../../../../../assets/data/tweets";
 import { useLocalSearchParams } from "expo-router";
 import { Text } from "react-native";
 

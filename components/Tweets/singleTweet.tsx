@@ -12,7 +12,7 @@ type TweetProps = {
 
 const SingleTweet = ({ tweet }: TweetProps) => {
   return (
-    <Link href={`/tweet/${tweet.id}`} asChild>
+    <Link href={`/feed/tweet/${tweet.id}`} asChild>
       <Pressable style={styles.container}>
         <ProfileImage imageSrc={tweet.user.image} />
         <View style={styles.mainContainer}>
